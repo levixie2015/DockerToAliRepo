@@ -19,4 +19,4 @@
 arm64v8/mysql:8.0
 
 #Supported architectures: amd64, arm32v5, arm32v6, arm32v7, arm64v8, i386, mips64le, ppc64le, riscv64, s390x
-redis:8.0-M03-bookworm
+#redis:8.0-M03-bookworm
