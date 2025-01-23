@@ -15,8 +15,7 @@
 #neo4j:5.26.0-community-bullseye
 
 # mysql arm64 images
-#--platform=linux/arm64/v8 ddev/mysql:5.7
 --platform=linux/arm64/v8 arm64v8/mysql:8.0
 
 #Supported architectures: amd64, arm32v5, arm32v6, arm32v7, arm64v8, i386, mips64le, ppc64le, riscv64, s390x
-#redis:8.0-M03-bookworm
+--platform=linux/arm64/v8 redis:8.0-M03-bookworm
