@@ -21,4 +21,4 @@
 --platform=linux/arm64/v8 redis:8.0-M03-bookworm
 
 --platform=linux/arm64/v8 elasticsearch:7.17.6
---platform=linux/arm64 elastic/kibana:7.17.6
+arm64v8/kibana:7.17.6
