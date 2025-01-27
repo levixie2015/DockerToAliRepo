@@ -1,24 +1,8 @@
-#redis:7.4.1
-#nginx:1.27.2
-#mysql:8.4.3
-#nacos/nacos-server:v2.4.3
-#nacos/nacos-server:v2.1.0
-#redis
-#ghcr.io/sozercan/llama3.1:8b
-#ghcr.io/open-webui/open-webui:ollama
-#ghcr.io/open-webui/open-webui:cuda
-#cr2.fit2cloud.com/1panel/maxkb
-#kubesphere/ks-installer:v3.4.1
-#docker.elastic.co/elasticsearch/elasticsearch-wolfi:8.17.0
-#docker.elastic.co/elasticsearch/elasticsearch:8.17.0
-#docker.elastic.co/kibana/kibana:8.17.0
-#neo4j:5.26.0-community-bullseye
-
 # mysql arm64 images
---platform=linux/arm64/v8 arm64v8/mysql:8.0
+#--platform=linux/arm64/v8 arm64v8/mysql:8.0
 
 #Supported architectures: amd64, arm32v5, arm32v6, arm32v7, arm64v8, i386, mips64le, ppc64le, riscv64, s390x
---platform=linux/arm64/v8 redis:8.0-M03-bookworm
+#--platform=linux/arm64/v8 redis:8.0-M03-bookworm
 
---platform=linux/arm64/v8 elasticsearch:7.17.6
-arm64v8/kibana:7.17.6
+#--platform=linux/arm64/v8 elasticsearch:7.17.6
+#arm64v8/kibana:7.17.6
