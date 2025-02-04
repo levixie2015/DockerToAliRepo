@@ -9,4 +9,6 @@
 
 #--platform=linux/arm64/v8 rabbitmq:management
 
---platform=linux/arm64/v8 nginx:1.14.2
+#--platform=linux/arm64/v8 nginx:1.14.2
+
+--platform=linux/arm64 minio/minio:latest
