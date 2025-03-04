@@ -17,4 +17,4 @@
 
 #--platform=linux/arm64 dreamacro/clash:latest
 
---platform=linux/arm64 doocs/md:latest
+--platform=linux/arm64 fangqy/md:latest-nginx
