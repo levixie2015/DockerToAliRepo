@@ -19,4 +19,5 @@
 
 #--platform=linux/arm64 fangqy/md:latest-nginx
 
---platform=linux/arm64/v8 cloudflare/cloudflared:1710-3f6b1f24d036
+#--platform=linux/arm64/v8 cloudflare/cloudflared:1710-3f6b1f24d036
+--platform=linux/arm64 boredazfcuk/icloudpd:latest
